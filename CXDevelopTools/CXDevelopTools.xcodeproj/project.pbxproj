@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F963E8AF1AF5EBB40096FCB5 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = F963E8AE1AF5EBB40096FCB5 /* NSArray+Log.m */; };
+		F963E8B31AF5EBBA0096FCB5 /* NSDate+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = F963E8B21AF5EBBA0096FCB5 /* NSDate+NJ.m */; };
+		F963E8B71AF5EBC00096FCB5 /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = F963E8B61AF5EBC00096FCB5 /* NSString+Emoji.m */; };
+		F963E8BB1AF5EBC60096FCB5 /* NSString+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = F963E8BA1AF5EBC60096FCB5 /* NSString+Path.m */; };
+		F963E8BF1AF5EBCC0096FCB5 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F963E8BE1AF5EBCC0096FCB5 /* NSString+Extension.m */; };
+		F963E8C31AF5EBD10096FCB5 /* UIBarButtonItem+CX.m in Sources */ = {isa = PBXBuildFile; fileRef = F963E8C21AF5EBD10096FCB5 /* UIBarButtonItem+CX.m */; };
+		F963E8CF1AF5EBDD0096FCB5 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F963E8CE1AF5EBDD0096FCB5 /* UIView+frame.m */; };
+		F963E8D51AF5EC730096FCB5 /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = F963E8D41AF5EC730096FCB5 /* UIImage+Scale.m */; };
 		F98F50461AF5E9E200942379 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F98F50451AF5E9E200942379 /* main.m */; };
 		F98F50491AF5E9E200942379 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F98F50481AF5E9E200942379 /* AppDelegate.m */; };
 		F98F504C1AF5E9E200942379 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98F504B1AF5E9E200942379 /* ViewController.m */; };
@@ -27,6 +35,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F963E8AD1AF5EBB40096FCB5 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		F963E8AE1AF5EBB40096FCB5 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		F963E8B11AF5EBBA0096FCB5 /* NSDate+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NJ.h"; sourceTree = "<group>"; };
+		F963E8B21AF5EBBA0096FCB5 /* NSDate+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NJ.m"; sourceTree = "<group>"; };
+		F963E8B51AF5EBC00096FCB5 /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		F963E8B61AF5EBC00096FCB5 /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		F963E8B91AF5EBC60096FCB5 /* NSString+Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Path.h"; sourceTree = "<group>"; };
+		F963E8BA1AF5EBC60096FCB5 /* NSString+Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Path.m"; sourceTree = "<group>"; };
+		F963E8BD1AF5EBCC0096FCB5 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		F963E8BE1AF5EBCC0096FCB5 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		F963E8C11AF5EBD10096FCB5 /* UIBarButtonItem+CX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CX.h"; sourceTree = "<group>"; };
+		F963E8C21AF5EBD10096FCB5 /* UIBarButtonItem+CX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CX.m"; sourceTree = "<group>"; };
+		F963E8CD1AF5EBDD0096FCB5 /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		F963E8CE1AF5EBDD0096FCB5 /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
+		F963E8D31AF5EC730096FCB5 /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
+		F963E8D41AF5EC730096FCB5 /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
 		F98F50401AF5E9E200942379 /* CXDevelopTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXDevelopTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F98F50441AF5E9E200942379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F98F50451AF5E9E200942379 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +84,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F963E8AB1AF5EB990096FCB5 /* CXDevelopTools */ = {
+			isa = PBXGroup;
+			children = (
+				F963E8CC1AF5EBDD0096FCB5 /* UIView+frame */,
+				F963E8C41AF5EBD60096FCB5 /* UIImage + Scale */,
+				F963E8C01AF5EBD10096FCB5 /* UIBarButtonItem */,
+				F963E8BC1AF5EBCC0096FCB5 /* NSString+Size */,
+				F963E8B81AF5EBC60096FCB5 /* NSString+Path */,
+				F963E8B41AF5EBC00096FCB5 /* NSString+Emoji */,
+				F963E8B01AF5EBBA0096FCB5 /* NSDate + NJ */,
+				F963E8AC1AF5EBB40096FCB5 /* Log */,
+			);
+			path = CXDevelopTools;
+			sourceTree = "<group>";
+		};
+		F963E8AC1AF5EBB40096FCB5 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				F963E8AD1AF5EBB40096FCB5 /* NSArray+Log.h */,
+				F963E8AE1AF5EBB40096FCB5 /* NSArray+Log.m */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		F963E8B01AF5EBBA0096FCB5 /* NSDate + NJ */ = {
+			isa = PBXGroup;
+			children = (
+				F963E8B11AF5EBBA0096FCB5 /* NSDate+NJ.h */,
+				F963E8B21AF5EBBA0096FCB5 /* NSDate+NJ.m */,
+			);
+			path = "NSDate + NJ";
+			sourceTree = "<group>";
+		};
+		F963E8B41AF5EBC00096FCB5 /* NSString+Emoji */ = {
+			isa = PBXGroup;
+			children = (
+				F963E8B51AF5EBC00096FCB5 /* NSString+Emoji.h */,
+				F963E8B61AF5EBC00096FCB5 /* NSString+Emoji.m */,
+			);
+			path = "NSString+Emoji";
+			sourceTree = "<group>";
+		};
+		F963E8B81AF5EBC60096FCB5 /* NSString+Path */ = {
+			isa = PBXGroup;
+			children = (
+				F963E8B91AF5EBC60096FCB5 /* NSString+Path.h */,
+				F963E8BA1AF5EBC60096FCB5 /* NSString+Path.m */,
+			);
+			path = "NSString+Path";
+			sourceTree = "<group>";
+		};
+		F963E8BC1AF5EBCC0096FCB5 /* NSString+Size */ = {
+			isa = PBXGroup;
+			children = (
+				F963E8BD1AF5EBCC0096FCB5 /* NSString+Extension.h */,
+				F963E8BE1AF5EBCC0096FCB5 /* NSString+Extension.m */,
+			);
+			path = "NSString+Size";
+			sourceTree = "<group>";
+		};
+		F963E8C01AF5EBD10096FCB5 /* UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				F963E8C11AF5EBD10096FCB5 /* UIBarButtonItem+CX.h */,
+				F963E8C21AF5EBD10096FCB5 /* UIBarButtonItem+CX.m */,
+			);
+			path = UIBarButtonItem;
+			sourceTree = "<group>";
+		};
+		F963E8C41AF5EBD60096FCB5 /* UIImage + Scale */ = {
+			isa = PBXGroup;
+			children = (
+				F963E8D31AF5EC730096FCB5 /* UIImage+Scale.h */,
+				F963E8D41AF5EC730096FCB5 /* UIImage+Scale.m */,
+			);
+			path = "UIImage + Scale";
+			sourceTree = "<group>";
+		};
+		F963E8CC1AF5EBDD0096FCB5 /* UIView+frame */ = {
+			isa = PBXGroup;
+			children = (
+				F963E8CD1AF5EBDD0096FCB5 /* UIView+frame.h */,
+				F963E8CE1AF5EBDD0096FCB5 /* UIView+frame.m */,
+			);
+			path = "UIView+frame";
+			sourceTree = "<group>";
+		};
 		F98F50371AF5E9E200942379 = {
 			isa = PBXGroup;
 			children = (
@@ -81,7 +192,7 @@
 		F98F50421AF5E9E200942379 /* CXDevelopTools */ = {
 			isa = PBXGroup;
 			children = (
-				F98F50691AF5EA0100942379 /* CXDevelopTools */,
+				F963E8AB1AF5EB990096FCB5 /* CXDevelopTools */,
 				F98F50471AF5E9E200942379 /* AppDelegate.h */,
 				F98F50481AF5E9E200942379 /* AppDelegate.m */,
 				F98F504A1AF5E9E200942379 /* ViewController.h */,
@@ -118,13 +229,6 @@
 				F98F505E1AF5E9E200942379 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F98F50691AF5EA0100942379 /* CXDevelopTools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CXDevelopTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,9 +331,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F963E8B71AF5EBC00096FCB5 /* NSString+Emoji.m in Sources */,
 				F98F504C1AF5E9E200942379 /* ViewController.m in Sources */,
+				F963E8B31AF5EBBA0096FCB5 /* NSDate+NJ.m in Sources */,
+				F963E8AF1AF5EBB40096FCB5 /* NSArray+Log.m in Sources */,
+				F963E8BB1AF5EBC60096FCB5 /* NSString+Path.m in Sources */,
 				F98F50491AF5E9E200942379 /* AppDelegate.m in Sources */,
+				F963E8CF1AF5EBDD0096FCB5 /* UIView+frame.m in Sources */,
+				F963E8C31AF5EBD10096FCB5 /* UIBarButtonItem+CX.m in Sources */,
 				F98F50461AF5E9E200942379 /* main.m in Sources */,
+				F963E8D51AF5EC730096FCB5 /* UIImage+Scale.m in Sources */,
+				F963E8BF1AF5EBCC0096FCB5 /* NSString+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +536,7 @@
 				F98F50651AF5E9E200942379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F98F50661AF5E9E200942379 /* Build configuration list for PBXNativeTarget "CXDevelopToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +545,7 @@
 				F98F50681AF5E9E200942379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
